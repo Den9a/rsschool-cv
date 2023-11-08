@@ -22,12 +22,12 @@ That's why I want to develop in the field of IT._
 ## **Code Exampel**
 
 ```
-        function truncate(str, maxlength){
+function truncate(str, maxlength){
 
-            return (str.length > maxlength) ?
-            str.slice(0, maxlength - 1) + '…' : str;
+    return (str.length > maxlength) ?
+    str.slice(0, maxlength - 1) + '…' : str;
 
-        }
+}
 
 ```
 ## **Eduction**
