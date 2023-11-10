@@ -1,0 +1,136 @@
+
+body {
+    margin: 0;
+    padding-left: 2rem;
+    background: hsla(0, 0%, 0%, 0.4);
+    text-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #dd8b8b;
+    text-decoration: underline;
+}
+span{
+    text-decoration: underline;
+    font-style: italic;
+}
+ul{
+    list-style: none;
+    width: max-content;
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: .8rem;
+    background: #bbb;
+    -webkit-border-radius: .8rem;
+    -moz-border-radius: .8rem;
+    -ms-border-radius: .8rem;
+    -o-border-radius: .8rem;
+    box-sizing: border-box;
+}
+code{
+    display: block;
+    box-sizing: border-box;
+    color: lightsalmon;
+    background: darkslategrey;
+    width: 36rem;
+    padding: 0 40% 0 0  ;
+    border-radius: .6rem;
+    -webkit-border-radius: .6rem;
+    -moz-border-radius: .6rem;
+    -ms-border-radius: .6rem;
+    -o-border-radius: .6rem;
+}
+.header {
+    width: max-content;
+    padding: .5rem;
+    border-radius: .8rem;
+    background: #bbb;
+    -webkit-border-radius: .8rem;
+    -moz-border-radius: .8rem;
+    -ms-border-radius: .8rem;
+    -o-border-radius: .8rem;
+}
+.title_name {
+}
+.title_job {
+}
+.main {
+}
+.contact {
+}
+.title_section {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 700;
+    
+
+}
+.contact_items {
+}
+.contact_item {
+}
+.about {
+}
+.text_about {
+    width: 450px;
+    display: block;
+    box-sizing: border-box;
+    color: lightsalmon;
+    background: darkslategrey;
+    padding: .6rem;
+    border-radius: .6rem;
+    -webkit-border-radius: .6rem;
+    -moz-border-radius: .6rem;
+    -ms-border-radius: .6rem;
+    -o-border-radius: .6rem;
+}
+.skills {
+}
+.skills_items {
+}
+.skills_item {
+}
+.code {
+}
+.eduction {
+}
+.eduction_items {
+}
+.eduction_item {
+}
+.eduction_item_title {
+}
+.language {
+}
+li:nth-child(even) {
+    padding: .3rem;
+    margin: .3rem;
+    width: 10rem;
+    background: #6d6767;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+li:nth-child(odd){
+    padding: .3rem;
+    margin: .3rem;
+    width: 10rem;
+    background: #4e4e4e;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+.language_item{}
+.lang_expiriens {
+}
+.footer {
+    text-align: center;
+}
