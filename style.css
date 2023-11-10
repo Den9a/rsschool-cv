@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     padding-left: 2rem;
@@ -53,27 +52,11 @@ code{
     -ms-border-radius: .8rem;
     -o-border-radius: .8rem;
 }
-.title_name {
-}
-.title_job {
-}
-.main {
-}
-.contact {
-}
 .title_section {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     line-height: 1.5;
     font-weight: 700;
-    
-
-}
-.contact_items {
-}
-.contact_item {
-}
-.about {
 }
 .text_about {
     width: 450px;
@@ -87,24 +70,6 @@ code{
     -moz-border-radius: .6rem;
     -ms-border-radius: .6rem;
     -o-border-radius: .6rem;
-}
-.skills {
-}
-.skills_items {
-}
-.skills_item {
-}
-.code {
-}
-.eduction {
-}
-.eduction_items {
-}
-.eduction_item {
-}
-.eduction_item_title {
-}
-.language {
 }
 li:nth-child(even) {
     padding: .3rem;
@@ -127,9 +92,6 @@ li:nth-child(odd){
     -moz-border-radius: .5rem;
     -ms-border-radius: .5rem;
     -o-border-radius: .5rem;
-}
-.language_item{}
-.lang_expiriens {
 }
 .footer {
     text-align: center;
