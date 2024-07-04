@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: lightblue;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1440px;
+    overflow: hidden;
+}
+
+.header {
+    height: 120px;
+    padding: 10px 20px;
+    margin: 0 0 80px 0;
+    background: lightblue;
+}
+
+.body-header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.images {
+    position: relative;
+    height: 220px;
+    width: 220px;
+    border-radius: 50px 50px 50px 50px;
+    border: 1px solid lightcyan;
+    overflow: hidden;
+}
+
+.images img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.auth-info {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+    padding: 40px 0 0 0;
+    height: max-content;
+    background: lightblue;
+}
+
+.body-main {
+    display: flex;
+}
+
+.body-main_left {
+    flex: 0 0 400px;
+    padding: 5px 15px;
+}
+
+.body-main_right {
+    flex: 1 1 80%;
+    background: linen;
+    border-radius: 25px;
+    padding: 20px 40px;
+}
+
+.skills,
+.contacts {
+    width: 400px;
+    height: 250px;
+    margin: 0 0 40px 0;
+}
+
+.item-skills,
+.item-contacts,
+.item-contacts a {
+    font-size: 22px;
+    line-height: 1;
+    margin: 12px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.contacts-body {
+    margin: 0 0 30px 0;
+    width: 100%;
+    height: 100%;
+}
+
+.title-contacts,
+.title-skills {
+    font-size: 30px;
+    font-weight: 600;
+    font-style: oblique;
+    margin: 15px;
+}
+
+.about,
+.eduction,
+.language,
+.code {
+    margin: 0 0 35px 0;
+    width: 600px;
+}
+
+.about-title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+
+.eduction-title,
+.language-title,
+.code-title {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+
+.text-about,
+.eduction-name,
+.language-name,
+.code-exemple {
+    font-size: 26px;
+    font-weight: 100;
+    line-height: 1.3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.code-exemple {
+    font-style: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.code-bg {
+    background: lightgray;
+    padding: 8%;
+    border-radius: 15px;
+    width: max-content;
+}
+
+.footer {
+    background: lightblue;
+    padding: 40px 10px;
+    width: 100%;
+}
+
+.icon-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.icon {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.icon-git,
+.icon-rs {
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+
+.icon-git img,
+.icon-rs img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.copy {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    inline-size: 1;
+    text-align: center;
+}
